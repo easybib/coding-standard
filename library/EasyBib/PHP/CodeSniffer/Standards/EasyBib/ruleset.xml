@@ -36,7 +36,7 @@
  </rule>
 
  <rule ref="PEAR.NamingConventions.ValidVariableName">
-    <exclude name="PEAR.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
+  <exclude name="PEAR.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
  </rule>
 
 </ruleset>
