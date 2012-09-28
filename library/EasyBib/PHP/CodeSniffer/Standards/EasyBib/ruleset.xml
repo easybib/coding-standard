@@ -3,16 +3,16 @@
 
  <description>EasyBib Coding Standard.</description>
 
- <exclude-pattern>*/tests/*</exclude-pattern>
- <exclude-pattern>*/data/*</exclude-pattern>
- <exclude-pattern>*/var/*</exclude-pattern>
- <exclude-pattern>*/bin/*</exclude-pattern>
- <exclude-pattern>*/vendor/*</exclude-pattern>
- <exclude-pattern>*/www/*</exclude-pattern>
- <exclude-pattern>*/views/scripts/*</exclude-pattern>
- <exclude-pattern>*/etc/*</exclude-pattern>
- <exclude-pattern>*/examples/*</exclude-pattern>
- <exclude-pattern>*/docs/*</exclude-pattern>
+ <exclude-pattern>*tests/*</exclude-pattern>
+ <exclude-pattern>*data/*</exclude-pattern>
+ <exclude-pattern>*var/*</exclude-pattern>
+ <exclude-pattern>*bin/*</exclude-pattern>
+ <exclude-pattern>*vendor/*</exclude-pattern>
+ <exclude-pattern>*www/*</exclude-pattern>
+ <exclude-pattern>*views/scripts/*</exclude-pattern>
+ <exclude-pattern>*etc/*</exclude-pattern>
+ <exclude-pattern>*examples/*</exclude-pattern>
+ <exclude-pattern>*docs/*</exclude-pattern>
 
  <rule ref="PEAR"/>
  <rule ref="PSR1"/>
