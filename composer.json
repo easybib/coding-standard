@@ -1,0 +1,19 @@
+{
+    "type": "library",
+    "license": "BSD",
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "http://pear.php.net"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "EasyBib\\PHP\\CodeSniffer": "library",
+            "PHP_CodeSniffer": "vendor/pear-pear.php.net/PHP_CodeSniffer"
+        }
+    },
+    "require-dev": {
+        "pear-pear/php_codesniffer": "*"
+    }
+}
