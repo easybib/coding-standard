@@ -39,8 +39,17 @@
   <exclude name="PEAR.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
  </rule>
 
+ <!-- this is primarily for controllers and ZF1 -->
+ <rule ref="PSR1.Classes.ClassDeclaration">
+  <exclude name="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
+ </rule>
+
  <rule ref="PSR2.Files.EndFileNewline">
   <exclude name="PSR2.Files.EndFileNewline.NotFound"/>
+ </rule>
+
+ <rule ref="PSR2.ControlStructures.SwitchDeclaration">
+  <exclude name="PSR2.ControlStructures.SwitchDeclaration.caseIndent"/>
  </rule>
 
  <rule ref="EasyBib.Methods.ConstructShouldNotReturn"/>
