@@ -43,6 +43,6 @@
   <exclude name="PSR2.Files.EndFileNewline.NotFound"/>
  </rule>
 
- <rule ref="EasyBib.PHP.CodeSniffer.Standards.EasyBib.Methods.ConstructShouldNotReturn"/>
+ <rule ref="EasyBib.Methods.ConstructShouldNotReturn"/>
 
 </ruleset>
