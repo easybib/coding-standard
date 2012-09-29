@@ -56,6 +56,11 @@ class AddSetShouldBeFluentSniff implements \PHP_CodeSniffer_Sniff
             return;
         }
 
+        // for `fooAction` methods in controllers
+        if (substr($methodName, -6) == 'Action') {
+            return;
+        }
+
         $error = sprintf('`%s` should implement a fluent interface', $methodName);
 
         $t_return = $phpcsFile->findNext(T_RETURN, $stackPtr);
