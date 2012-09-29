@@ -30,6 +30,10 @@
   </properties>
  </rule>
 
+ <rule ref="Generic.WhiteSpace.ScopeIndent">
+  <exclude name="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ </rule>
+
  <rule ref="PEAR.NamingConventions.ValidFunctionName">
   <exclude name="PEAR.NamingConventions.ValidFunctionName.PrivateNoUnderscore"/>
   <exclude name="PEAR.NamingConventions.ValidFunctionName.FunctionUnderscore"/>
