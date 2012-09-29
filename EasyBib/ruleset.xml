@@ -44,5 +44,5 @@
  </rule>
 
  <rule ref="EasyBib.Methods.ConstructShouldNotReturn"/>
-
+ <rule ref="EasyBib.Commenting.ReturnStatements"/>
 </ruleset>
