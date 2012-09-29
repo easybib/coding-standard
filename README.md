@@ -4,11 +4,13 @@
 
  1. Install: `pear install PHP_CodeSniffer`
  2. clone this repo
- 3. check CS:
+ 3. check CS
 
-    phpcs \
-    --standard=/path/to/repo/library/EasyBib/PHP/CodeSniffer/Standards/EasyBib/ruleset.xml \
-    target-dir
+This is how:
+
+     phpcs \
+     --standard=/path/to/repo/EasyBib/ruleset.xml \
+     target-dir
 
 ## Todo
 
