@@ -69,6 +69,7 @@ class ReturnStatementsSniff implements \PHP_CodeSniffer_Sniff
             if ('/**' == $content) {
                 return;
             }
+            --$look;
         }
         return;
     }
