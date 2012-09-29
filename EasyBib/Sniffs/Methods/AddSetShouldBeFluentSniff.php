@@ -61,6 +61,10 @@ class AddSetShouldBeFluentSniff implements \PHP_CodeSniffer_Sniff
             return;
         }
 
+        if (strtolower(substr($methodName, 0, 5)) === 'setup') {
+            return;
+        }
+
         $error = sprintf('`%s` should implement a fluent interface', $methodName);
 
         $t_return = $phpcsFile->findNext(T_RETURN, $stackPtr);
