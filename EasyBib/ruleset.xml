@@ -39,4 +39,10 @@
   <exclude name="PEAR.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
  </rule>
 
+ <rule ref="PSR2.Files.EndFileNewline">
+  <exclude name="PSR2.Files.EndFileNewline.NotFound"/>
+ </rule>
+
+ <rule ref="EasyBib.PHP.CodeSniffer.Standards.EasyBib.Methods.ConstructShouldNotReturn"/>
+
 </ruleset>
