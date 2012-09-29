@@ -39,7 +39,7 @@
   <exclude name="PEAR.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
  </rule>
 
- <!-- this is primarily for controllers and ZF1 -->
+ <!-- turn this off for ZF1 controllers -->
  <rule ref="PSR1.Classes.ClassDeclaration">
   <exclude name="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
  </rule>
@@ -52,7 +52,13 @@
   <exclude name="PSR2.ControlStructures.SwitchDeclaration.caseIndent"/>
  </rule>
 
+ <!-- turn this off because of ZF1 controllers -->
+ <rule ref="Squiz.Classes.ValidClassName">
+  <exclude name="Squiz.Classes.ValidClassName.NotCamelCaps"/>
+ </rule>
+
  <rule ref="EasyBib.Methods.ConstructShouldNotReturn"/>
  <rule ref="EasyBib.Methods.AddSetShouldBeFluent"/>
  <rule ref="EasyBib.Commenting.ReturnStatements"/>
+
 </ruleset>
